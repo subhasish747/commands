@@ -12,6 +12,9 @@ git config user.password "your password"
 
 #git remote set-url origin "https://github-username@github.com/github-username/github-repository-name.git"
 
+#initialize a repo
+git init
+
 
 # Clone git project
 git clone <http url>
