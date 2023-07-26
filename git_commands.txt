@@ -1,0 +1,38 @@
+#Link 
+https://docs.github.com/en/get-started/getting-started-with-git
+
+
+# Configure 
+git config --global user.name "your-username"
+git config --global user.email "your-email"
+
+git config user.name "your username"
+git config user.password "your password"
+
+
+#git remote set-url origin "https://github-username@github.com/github-username/github-repository-name.git"
+
+
+# Clone git project
+git clone <http url>
+
+#for non secure 
+git -c http.sslVerify=false clone <http url>
+
+#Create new repo
+git remote add origin <REMOTE_URL>
+
+#Go to a specific branch
+cd <repo name>
+git checkout <branch-name>
+
+git checkout -b <new-branch-name>
+
+# Add files
+git status
+git add -A
+git commit -m "commit messgae"
+git push origin <branch name>
+
+# merge main into branch
+git pull origin main
